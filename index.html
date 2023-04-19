@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>一只吃、喝、健身的老鼠</title>
+    <style>
+      .sidebarMouse {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="sidebarMouse">
+      <!-- 老鼠吃鼠标点击的产生的食物 (需要浏览器支持 Adobe Flash Player )-->
+      <!-- https://files.cnblogs.com/files/mq0036 -->
+      <object
+        type="application/x-shockwave-flash"
+        data="./mouse.swf"
+        width="400"
+        height="250">
+        <param name="movie" value="./mouse.swf" />
+        <param name="AllowScriptAccess" value="always" />
+        <param name="wmode" value="opaque" />
+      </object>
+      <div style="text-align: center">点击老鼠框里面投放食物</div>
+    </div>
+  </body>
+</html>
